@@ -14,5 +14,9 @@
 <a href="/products/<%=pro._id%>/edit"> edit</a>
 <br>
 yeah you could have bought these
+<br>
+<form action="/products/<%=pro._id%>?_method=DELETE" method="POST">
+    <button>Delete</button>
+</form>
 </body>
 </html>
